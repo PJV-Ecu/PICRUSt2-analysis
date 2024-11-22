@@ -1,0 +1,36 @@
+Comparing 6 methods:
+
+The DESeq2 method obtained 11 statistically significant features.
+The number of features that are common to other methods is 0 
+The number of features that are different from other methods is 11 
+The names of the features that are different from other methods are 2-amino-3-carboxymuconate semialdehyde degradation to 2-hydroxypentadienoate, 2-aminophenol degradation, 4-Aminobutanoate Degradation, Ergothioneine Biosynthesis, Formaldehyde Assimilation, Nitroaromatic Compound Degradation, Sugar Degradation, coenzyme B biosynthesis, crotonate fermentation (to acetate and cyclohexane carboxylate), ectoine biosynthesis, octane oxidation 
+
+The edgeR method obtained 14 statistically significant features.
+The number of features that are common to other methods is 0 
+The number of features that are different from other methods is 14 
+The names of the features that are different from other methods are 7-(3-amino-3-carboxypropyl)-wyosine biosynthesis, Creatinine Degradation, Glycerol Degradation, Naphthalene Degradation, Organic Solute Biosynthesis, coenzyme B biosynthesis, crotonate fermentation (to acetate and cyclohexane carboxylate), glutaryl-CoA degradation, naphthalene degradation to acetyl-CoA, p-cumate degradation, p-cymene degradation, superpathway of methylglyoxal degradation, superpathway of ornithine degradation, tetrahydromethanopterin biosynthesis 
+
+The limma voom method obtained 0 statistically significant features.
+The number of features that are common to other methods is 0 
+The number of features that are different from other methods is 0 
+The names of the features that are different from other methods are  
+
+The metagenomeSeq method obtained 2 statistically significant features.
+The number of features that are common to other methods is 0 
+The number of features that are different from other methods is 2 
+The names of the features that are different from other methods are Naphthalene Degradation, naphthalene degradation to acetyl-CoA 
+
+The LinDA method obtained 0 statistically significant features.
+The number of features that are common to other methods is 0 
+The number of features that are different from other methods is 0 
+The names of the features that are different from other methods are  
+
+The Maaslin2 method obtained 0 statistically significant features.
+The number of features that are common to other methods is 0 
+The number of features that are different from other methods is 0 
+The names of the features that are different from other methods are  
+
+The number of features that are common to all methods is 0 
+The names of the features that are common to all methods are  
+The number of features that are obtained by any of the methods is 23 
+The names of the features that are obtained by any of the methods are 2-amino-3-carboxymuconate semialdehyde degradation to 2-hydroxypentadienoate, 2-aminophenol degradation, 4-Aminobutanoate Degradation, Ergothioneine Biosynthesis, Formaldehyde Assimilation, Nitroaromatic Compound Degradation, Sugar Degradation, coenzyme B biosynthesis, crotonate fermentation (to acetate and cyclohexane carboxylate), ectoine biosynthesis, octane oxidation, 7-(3-amino-3-carboxypropyl)-wyosine biosynthesis, Creatinine Degradation, Glycerol Degradation, Naphthalene Degradation, Organic Solute Biosynthesis, glutaryl-CoA degradation, naphthalene degradation to acetyl-CoA, p-cumate degradation, p-cymene degradation, superpathway of methylglyoxal degradation, superpathway of ornithine degradation, tetrahydromethanopterin biosynthesis

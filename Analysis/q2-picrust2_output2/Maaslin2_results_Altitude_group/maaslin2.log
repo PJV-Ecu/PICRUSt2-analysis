@@ -1,0 +1,190 @@
+2024-11-11 13:55:44.215164 INFO::Writing function arguments to log file
+2024-11-11 13:55:44.230035 DEBUG::Function arguments
+2024-11-11 13:55:44.236237 DEBUG::Output folder: Maaslin2_results_Altitude_group
+2024-11-11 13:55:44.239794 DEBUG::Min Abundance: 0.000000
+2024-11-11 13:55:44.241796 DEBUG::Min Prevalence: 0.100000
+2024-11-11 13:55:44.24509 DEBUG::Normalization: TSS
+2024-11-11 13:55:44.246607 DEBUG::Transform: AST
+2024-11-11 13:55:44.249041 DEBUG::Analysis method: LM
+2024-11-11 13:55:44.251729 DEBUG::Max significance: 0.250000
+2024-11-11 13:55:44.254894 DEBUG::Random effects:
+2024-11-11 13:55:44.257358 DEBUG::Fixed effects: Altitude_group
+2024-11-11 13:55:44.260105 DEBUG::Correction method: BH
+2024-11-11 13:55:44.264241 DEBUG::Standardize: TRUE
+2024-11-11 13:55:44.266122 DEBUG::Cores: 1
+2024-11-11 13:55:44.267742 INFO::Verifying options selected are valid
+2024-11-11 13:55:44.335814 INFO::Determining format of input files
+2024-11-11 13:55:44.338116 INFO::Input format is data samples as rows and metadata samples as rows
+2024-11-11 13:55:44.343463 DEBUG::A total of 9 samples were found in both the data and metadata
+2024-11-11 13:55:44.346845 DEBUG::Reordering data/metadata to use same sample ordering
+2024-11-11 13:55:44.351828 INFO::Formula for fixed effects: expr ~  Altitude_group
+2024-11-11 13:55:44.355075 INFO::Filter data based on min abundance and min prevalence
+2024-11-11 13:55:44.358884 INFO::Total samples in data: 9
+2024-11-11 13:55:44.367784 INFO::Min samples required with min abundance for a feature not to be filtered: 0.900000
+2024-11-11 13:55:44.374806 INFO::Total filtered features: 2
+2024-11-11 13:55:44.381871 INFO::Filtered feature names from abundance and prevalence filtering: X4.hydroxyacetophenone.degradation, superpathway.of.lipopolysaccharide.biosynthesis
+2024-11-11 13:55:44.390898 INFO::Total filtered features with variance filtering: 0
+2024-11-11 13:55:44.396944 INFO::Filtered feature names from variance filtering:
+2024-11-11 13:55:44.400314 INFO::Running selected normalization method: TSS
+2024-11-11 13:55:44.682136 INFO::Applying z-score to standardize continuous metadata
+2024-11-11 13:55:44.690729 INFO::Running selected transform method: AST
+2024-11-11 13:55:44.696683 INFO::Running selected analysis method: LM
+2024-11-11 13:55:44.721297 INFO::Fitting model to feature number 1, X.S..propane.1.2.diol.degradation
+2024-11-11 13:55:44.731442 INFO::Fitting model to feature number 2, X1.5.anhydrofructose.degradation
+2024-11-11 13:55:44.737421 INFO::Fitting model to feature number 3, X2..Deoxyribonucleotide.Biosynthesis
+2024-11-11 13:55:44.744073 INFO::Fitting model to feature number 4, X2.amino.3.carboxymuconate.semialdehyde.degradation.to.2.hydroxypentadienoate
+2024-11-11 13:55:44.749123 INFO::Fitting model to feature number 5, X2.aminophenol.degradation
+2024-11-11 13:55:44.754015 INFO::Fitting model to feature number 6, X3.phenylpropanoate.and.3..3.hydroxyphenyl.propanoate.degradation
+2024-11-11 13:55:44.763636 INFO::Fitting model to feature number 7, X4.Aminobutanoate.Degradation
+2024-11-11 13:55:44.770377 INFO::Fitting model to feature number 8, X4.hydroxyphenylacetate.degradation
+2024-11-11 13:55:44.778358 INFO::Fitting model to feature number 9, X4.methylcatechol.degradation..ortho.cleavage.
+2024-11-11 13:55:44.787674 INFO::Fitting model to feature number 10, X7..3.amino.3.carboxypropyl..wyosine.biosynthesis
+2024-11-11 13:55:44.794687 INFO::Fitting model to feature number 11, X8.Amino.7.oxononanoate.Biosynthesis
+2024-11-11 13:55:44.803133 INFO::Fitting model to feature number 12, Allantoin.Degradation
+2024-11-11 13:55:44.809587 INFO::Fitting model to feature number 13, Anaerobic.Respiration
+2024-11-11 13:55:44.817422 INFO::Fitting model to feature number 14, Benzoate.Degradation
+2024-11-11 13:55:44.823405 INFO::Fitting model to feature number 15, Benzoyl.CoA.Degradation
+2024-11-11 13:55:44.830171 INFO::Fitting model to feature number 16, Butanediol.Biosynthesis
+2024-11-11 13:55:44.838553 INFO::Fitting model to feature number 17, CO2.Fixation
+2024-11-11 13:55:44.853107 INFO::Fitting model to feature number 18, Catechol.Degradation
+2024-11-11 13:55:44.862065 INFO::Fitting model to feature number 19, Cell.Wall.Biosynthesis
+2024-11-11 13:55:44.87215 INFO::Fitting model to feature number 20, Chloroaromatic.Compound.Degradation
+2024-11-11 13:55:44.882276 INFO::Fitting model to feature number 21, Chorismate.Biosynthesis
+2024-11-11 13:55:44.889586 INFO::Fitting model to feature number 22, Coenzyme.A.Biosynthesis
+2024-11-11 13:55:44.898248 INFO::Fitting model to feature number 23, Coenzyme.M.Biosynthesis
+2024-11-11 13:55:44.908377 INFO::Fitting model to feature number 24, Creatinine.Degradation
+2024-11-11 13:55:44.917757 INFO::Fitting model to feature number 25, Ergothioneine.Biosynthesis
+2024-11-11 13:55:44.925643 INFO::Fitting model to feature number 26, Fatty.Acid.Biosynthesis
+2024-11-11 13:55:44.939147 INFO::Fitting model to feature number 27, Fatty.Acid.Degradation
+2024-11-11 13:55:44.947607 INFO::Fitting model to feature number 28, Fermentation.of.Pyruvate
+2024-11-11 13:55:44.954857 INFO::Fitting model to feature number 29, Fermentation.to.Acetate
+2024-11-11 13:55:44.962828 INFO::Fitting model to feature number 30, Fermentation.to.Alcohols
+2024-11-11 13:55:44.9709 INFO::Fitting model to feature number 31, Fermentation.to.Short.Chain.Fatty.Acids
+2024-11-11 13:55:44.97772 INFO::Fitting model to feature number 32, Formaldehyde.Assimilation
+2024-11-11 13:55:44.989849 INFO::Fitting model to feature number 33, Formaldehyde.Oxidation
+2024-11-11 13:55:44.996691 INFO::Fitting model to feature number 34, Gallate.Degradation
+2024-11-11 13:55:45.010068 INFO::Fitting model to feature number 35, Glycan.Biosynthesis
+2024-11-11 13:55:45.020856 INFO::Fitting model to feature number 36, Glycerol.Degradation
+2024-11-11 13:55:45.033485 INFO::Fitting model to feature number 37, Glycine.Betaine.Degradation
+2024-11-11 13:55:45.044901 INFO::Fitting model to feature number 38, Lipopolysaccharide.Biosynthesis
+2024-11-11 13:55:45.052859 INFO::Fitting model to feature number 39, Mandelate.Degradation
+2024-11-11 13:55:45.066292 INFO::Fitting model to feature number 40, NAD.Metabolism
+2024-11-11 13:55:45.081374 INFO::Fitting model to feature number 41, Naphthalene.Degradation
+2024-11-11 13:55:45.120132 INFO::Fitting model to feature number 42, Nicotinate.Degradation
+2024-11-11 13:55:45.158826 INFO::Fitting model to feature number 43, Nitroaromatic.Compound.Degradation
+2024-11-11 13:55:45.177853 INFO::Fitting model to feature number 44, Nitrogen.Compound.Metabolism
+2024-11-11 13:55:45.204997 INFO::Fitting model to feature number 45, Organic.Solute.Biosynthesis
+2024-11-11 13:55:45.231845 INFO::Fitting model to feature number 46, Other.Amino.Acid.Biosynthesis
+2024-11-11 13:55:45.281744 INFO::Fitting model to feature number 47, Phenolic.Compound.Degradation
+2024-11-11 13:55:45.298668 INFO::Fitting model to feature number 48, Phospholipid.Biosynthesis
+2024-11-11 13:55:45.314809 INFO::Fitting model to feature number 49, Phosphorus.Compound.Metabolism
+2024-11-11 13:55:45.325712 INFO::Fitting model to feature number 50, Polyprenyl.Biosynthesis
+2024-11-11 13:55:45.338164 INFO::Fitting model to feature number 51, Polysaccharide.Degradation
+2024-11-11 13:55:45.346274 INFO::Fitting model to feature number 52, Porphyrin.Compound.Biosynthesis
+2024-11-11 13:55:45.355678 INFO::Fitting model to feature number 53, Propanoate.Degradation
+2024-11-11 13:55:45.364799 INFO::Fitting model to feature number 54, Proteinogenic.Amino.Acid.Biosynthesis
+2024-11-11 13:55:45.379158 INFO::Fitting model to feature number 55, Proteinogenic.Amino.Acid.Degradation
+2024-11-11 13:55:45.387531 INFO::Fitting model to feature number 56, Protocatechuate.Degradation
+2024-11-11 13:55:45.397009 INFO::Fitting model to feature number 57, Purine.Nucleotide.Biosynthesis
+2024-11-11 13:55:45.407766 INFO::Fitting model to feature number 58, Purine.Nucleotide.Degradation
+2024-11-11 13:55:45.416292 INFO::Fitting model to feature number 59, Pyrimidine.Nucleotide.Biosynthesis
+2024-11-11 13:55:45.430388 INFO::Fitting model to feature number 60, Pyrimidine.Nucleotide.Degradation
+2024-11-11 13:55:45.440369 INFO::Fitting model to feature number 61, Queuosine.Biosynthesis.and.Salvage
+2024-11-11 13:55:45.451927 INFO::Fitting model to feature number 62, Quinol.and.Quinone.Biosynthesis
+2024-11-11 13:55:45.4685 INFO::Fitting model to feature number 63, Reductant.Biosynthesis
+2024-11-11 13:55:45.480035 INFO::Fitting model to feature number 64, Siderophore.Biosynthesis
+2024-11-11 13:55:45.490506 INFO::Fitting model to feature number 65, Steroid.Degradation
+2024-11-11 13:55:45.500619 INFO::Fitting model to feature number 66, Sugar.Acid.Degradation
+2024-11-11 13:55:45.511435 INFO::Fitting model to feature number 67, Sugar.Biosynthesis
+2024-11-11 13:55:45.521539 INFO::Fitting model to feature number 68, Sugar.Degradation
+2024-11-11 13:55:45.532723 INFO::Fitting model to feature number 69, Sugar.Derivative.Degradation
+2024-11-11 13:55:45.542445 INFO::Fitting model to feature number 70, Sulfur.Compound.Metabolism
+2024-11-11 13:55:45.555111 INFO::Fitting model to feature number 71, TCA.cycle.I..prokaryotic.
+2024-11-11 13:55:45.564981 INFO::Fitting model to feature number 72, TCA.cycle.IV..2.oxoglutarate.decarboxylase.
+2024-11-11 13:55:45.57312 INFO::Fitting model to feature number 73, TCA.cycle.V..2.oxoglutarate.ferredoxin.oxidoreductase.
+2024-11-11 13:55:45.581836 INFO::Fitting model to feature number 74, TCA.cycle.VI..Helicobacter.
+2024-11-11 13:55:45.589754 INFO::Fitting model to feature number 75, TCA.cycle.VII..acetate.producers.
+2024-11-11 13:55:45.597349 INFO::Fitting model to feature number 76, Terpenoid.Biosynthesis
+2024-11-11 13:55:45.602732 INFO::Fitting model to feature number 77, Tetrapyrrole.Biosynthesis
+2024-11-11 13:55:45.609094 INFO::Fitting model to feature number 78, Toluene.Degradation
+2024-11-11 13:55:45.618149 INFO::Fitting model to feature number 79, Vanillin.Degradation
+2024-11-11 13:55:45.627516 INFO::Fitting model to feature number 80, Vitamin.Biosynthesis
+2024-11-11 13:55:45.634943 INFO::Fitting model to feature number 81, aerobic.respiration.I..cytochrome.c.
+2024-11-11 13:55:45.642217 INFO::Fitting model to feature number 82, anaerobic.aromatic.compound.degradation..Thauera.aromatica.
+2024-11-11 13:55:45.650904 INFO::Fitting model to feature number 83, aromatic.biogenic.amine.degradation..bacteria.
+2024-11-11 13:55:45.656559 INFO::Fitting model to feature number 84, aspartate.superpathway
+2024-11-11 13:55:45.666176 INFO::Fitting model to feature number 85, biphenyl.degradation
+2024-11-11 13:55:45.672386 INFO::Fitting model to feature number 86, cob.II.yrinate.a.c.diamide.biosynthesis
+2024-11-11 13:55:45.679343 INFO::Fitting model to feature number 87, coenzyme.B.biosynthesis
+2024-11-11 13:55:45.685429 INFO::Fitting model to feature number 88, colanic.acid.building.blocks.biosynthesis
+2024-11-11 13:55:45.690194 INFO::Fitting model to feature number 89, crotonate.fermentation..to.acetate.and.cyclohexane.carboxylate.
+2024-11-11 13:55:45.696094 INFO::Fitting model to feature number 90, ectoine.biosynthesis
+2024-11-11 13:55:45.701071 INFO::Fitting model to feature number 91, ethylmalonyl.CoA.pathway
+2024-11-11 13:55:45.705928 INFO::Fitting model to feature number 92, factor.420.biosynthesis
+2024-11-11 13:55:45.715307 INFO::Fitting model to feature number 93, glutaryl.CoA.degradation
+2024-11-11 13:55:45.721599 INFO::Fitting model to feature number 94, glycolysis.I..from.glucose.6.phosphate.
+2024-11-11 13:55:45.728601 INFO::Fitting model to feature number 95, glycolysis.II..from.fructose.6.phosphate.
+2024-11-11 13:55:45.733514 INFO::Fitting model to feature number 96, glycolysis.III..from.glucose.
+2024-11-11 13:55:45.739673 INFO::Fitting model to feature number 97, glycolysis.V..Pyrococcus.
+2024-11-11 13:55:45.749334 INFO::Fitting model to feature number 98, glyoxylate.cycle
+2024-11-11 13:55:45.753927 INFO::Fitting model to feature number 99, isopropanol.biosynthesis..engineered.
+2024-11-11 13:55:45.758826 INFO::Fitting model to feature number 100, methanol.oxidation.to.carbon.dioxide
+2024-11-11 13:55:45.76814 INFO::Fitting model to feature number 101, methyl.ketone.biosynthesis..engineered.
+2024-11-11 13:55:45.775175 INFO::Fitting model to feature number 102, methylaspartate.cycle
+2024-11-11 13:55:45.782309 INFO::Fitting model to feature number 103, methylgallate.degradation
+2024-11-11 13:55:45.788287 INFO::Fitting model to feature number 104, naphthalene.degradation.to.acetyl.CoA
+2024-11-11 13:55:45.792512 INFO::Fitting model to feature number 105, norspermidine.biosynthesis
+2024-11-11 13:55:45.797794 INFO::Fitting model to feature number 106, nucleoside.and.nucleotide.degradation..archaea.
+2024-11-11 13:55:45.803015 INFO::Fitting model to feature number 107, nylon.6.oligomer.degradation
+2024-11-11 13:55:45.808144 INFO::Fitting model to feature number 108, octane.oxidation
+2024-11-11 13:55:45.815599 INFO::Fitting model to feature number 109, p.cumate.degradation
+2024-11-11 13:55:45.821392 INFO::Fitting model to feature number 110, p.cymene.degradation
+2024-11-11 13:55:45.826216 INFO::Fitting model to feature number 111, partial.TCA.cycle..obligate.autotrophs.
+2024-11-11 13:55:45.831319 INFO::Fitting model to feature number 112, pentose.phosphate.pathway
+2024-11-11 13:55:45.837909 INFO::Fitting model to feature number 113, pentose.phosphate.pathway..non.oxidative.branch.
+2024-11-11 13:55:45.845069 INFO::Fitting model to feature number 114, phospholipases
+2024-11-11 13:55:45.853613 INFO::Fitting model to feature number 115, photorespiration
+2024-11-11 13:55:45.861033 INFO::Fitting model to feature number 116, ppGpp.metabolism
+2024-11-11 13:55:45.871204 INFO::Fitting model to feature number 117, preQ0.biosynthesis
+2024-11-11 13:55:45.875315 INFO::Fitting model to feature number 118, superpathway.of.C1.compounds.oxidation.to.CO2
+2024-11-11 13:55:45.881907 INFO::Fitting model to feature number 119, superpathway.of.D.glucarate.and.D.galactarate.degradation
+2024-11-11 13:55:45.888608 INFO::Fitting model to feature number 120, superpathway.of.L.aspartate.and.L.asparagine.biosynthesis
+2024-11-11 13:55:45.89771 INFO::Fitting model to feature number 121, superpathway.of.L.lysine..L.threonine.and.L.methionine.biosynthesis.I
+2024-11-11 13:55:45.904388 INFO::Fitting model to feature number 122, superpathway.of.L.serine.and.glycine.biosynthesis.I
+2024-11-11 13:55:45.908331 INFO::Fitting model to feature number 123, superpathway.of.N.acetylglucosamine..N.acetylmannosamine.and.N.acetylneuraminate.degradation
+2024-11-11 13:55:45.915442 INFO::Fitting model to feature number 124, superpathway.of.N.acetylneuraminate.degradation
+2024-11-11 13:55:45.921344 INFO::Fitting model to feature number 125, superpathway.of.S.adenosyl.L.methionine.biosynthesis
+2024-11-11 13:55:45.929702 INFO::Fitting model to feature number 126, superpathway.of.arginine.and.polyamine.biosynthesis
+2024-11-11 13:55:45.936354 INFO::Fitting model to feature number 127, superpathway.of.aromatic.amino.acid.biosynthesis
+2024-11-11 13:55:45.944428 INFO::Fitting model to feature number 128, superpathway.of.branched.chain.amino.acid.biosynthesis
+2024-11-11 13:55:45.954694 INFO::Fitting model to feature number 129, superpathway.of.chorismate.metabolism
+2024-11-11 13:55:45.963236 INFO::Fitting model to feature number 130, superpathway.of.fucose.and.rhamnose.degradation
+2024-11-11 13:55:45.971308 INFO::Fitting model to feature number 131, superpathway.of.glycol.metabolism.and.degradation
+2024-11-11 13:55:45.981517 INFO::Fitting model to feature number 132, superpathway.of.glycolysis.and.the.Entner.Doudoroff.pathway
+2024-11-11 13:55:45.98929 INFO::Fitting model to feature number 133, superpathway.of.glycolysis..pyruvate.dehydrogenase..TCA..and.glyoxylate.bypass
+2024-11-11 13:55:45.996328 INFO::Fitting model to feature number 134, superpathway.of.glyoxylate.bypass.and.TCA
+2024-11-11 13:55:46.004603 INFO::Fitting model to feature number 135, superpathway.of.hexuronide.and.hexuronate.degradation
+2024-11-11 13:55:46.014347 INFO::Fitting model to feature number 136, superpathway.of.histidine..purine..and.pyrimidine.biosynthesis
+2024-11-11 13:55:46.023745 INFO::Fitting model to feature number 137, superpathway.of.methylglyoxal.degradation
+2024-11-11 13:55:46.033298 INFO::Fitting model to feature number 138, superpathway.of.ornithine.degradation
+2024-11-11 13:55:46.042745 INFO::Fitting model to feature number 139, superpathway.of.phenylethylamine.degradation
+2024-11-11 13:55:46.051689 INFO::Fitting model to feature number 140, superpathway.of.polyamine.biosynthesis.I
+2024-11-11 13:55:46.06191 INFO::Fitting model to feature number 141, superpathway.of.polyamine.biosynthesis.II
+2024-11-11 13:55:46.070691 INFO::Fitting model to feature number 142, superpathway.of.purine.deoxyribonucleosides.degradation
+2024-11-11 13:55:46.080591 INFO::Fitting model to feature number 143, superpathway.of.salicylate.degradation
+2024-11-11 13:55:46.090977 INFO::Fitting model to feature number 144, syringate.degradation
+2024-11-11 13:55:46.097377 INFO::Fitting model to feature number 145, tRNA.charging
+2024-11-11 13:55:46.104322 INFO::Fitting model to feature number 146, tRNA.processing
+2024-11-11 13:55:46.111635 INFO::Fitting model to feature number 147, tetrahydromethanopterin.biosynthesis
+2024-11-11 13:55:46.171001 INFO::Counting total values for each feature
+2024-11-11 13:55:46.186151 INFO::Writing filtered data to file Maaslin2_results_Altitude_group/features/filtered_data.tsv
+2024-11-11 13:55:46.203397 INFO::Writing filtered, normalized data to file Maaslin2_results_Altitude_group/features/filtered_data_norm.tsv
+2024-11-11 13:55:46.217912 INFO::Writing filtered, normalized, transformed data to file Maaslin2_results_Altitude_group/features/filtered_data_norm_transformed.tsv
+2024-11-11 13:55:46.236798 WARNING::Deleting existing residuals file: Maaslin2_results_Altitude_group/fits/residuals.rds
+2024-11-11 13:55:46.243165 INFO::Writing residuals to file Maaslin2_results_Altitude_group/fits/residuals.rds
+2024-11-11 13:55:46.252291 WARNING::Deleting existing fitted file: Maaslin2_results_Altitude_group/fits/fitted.rds
+2024-11-11 13:55:46.257179 INFO::Writing fitted values to file Maaslin2_results_Altitude_group/fits/fitted.rds
+2024-11-11 13:55:46.262718 INFO::Writing all results to file (ordered by increasing q-values): Maaslin2_results_Altitude_group/all_results.tsv
+2024-11-11 13:55:46.271467 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): Maaslin2_results_Altitude_group/significant_results.tsv
+2024-11-11 13:55:46.277387 INFO::Writing heatmap of significant results to file: Maaslin2_results_Altitude_group/heatmap.pdf
+2024-11-11 13:55:46.284825 INFO::Writing association plots (one for each significant association) to output folder: Maaslin2_results_Altitude_group
